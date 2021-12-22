@@ -1,0 +1,84 @@
+.padding-cus {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    // left: 0;
+    // right: 0;
+    color: #fff;
+    width: 100%;
+    padding: 34px 0 54px;
+    background-color: #262626;
+    font-size: 14px;
+
+    h5{
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+
+    p{
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 8px;
+        
+        #location-icon,
+        svg#phone-icon {
+            font-size: 16px;
+            margin-right: 8px;
+        }
+    }
+
+    .contact{}
+    
+    h6.contact__heading {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    p:hover {
+        cursor: pointer;
+    }
+
+    .addr{
+        padding-top: 50%;
+        background-image: url('./image/footer_addr.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        img.addr__logo{
+            width: 50px;
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+
+        .brand-name{
+            color: #f0f0f0;
+            display: inline-block;
+            position: absolute;
+            top: 5px;
+            left: 60px;
+            text-shadow: 1px 1px 10px #ddd;
+        }
+
+        .addr__like {
+            color: #f0f0f0;
+            position: absolute;
+            top: 25px;
+            left: 60px;
+            text-shadow: 1px 1px 10px #ddd;
+        }
+    }
+
+    
+}
